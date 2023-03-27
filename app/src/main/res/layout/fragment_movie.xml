@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#720000"
+    android:alpha="0.9"
+    tools:context=".MovieFragment"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="235dp"
+        app:cardBackgroundColor="#720000"
+        app:cardElevation="0dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="235dp"
+            android:background="@drawable/onepiecered"
+            android:elevation="0dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="235dp"
+            android:src="@drawable/onepiece_shape"
+            android:elevation="0dp"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="One Piece Film Red"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:textSize="24sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="18dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#808080"
+        android:layout_marginTop="1dp"
+        android:layout_marginLeft="18dp"
+        android:fontFamily="sans-serif-light"
+        android:textSize="16sp"
+        android:textFontWeight="500"
+        android:text="Pelicula"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:layout_margin="18dp"
+        android:textFontWeight="400"
+        android:fontFamily="sans-serif-light"
+        android:textSize="16sp"
+        android:text="@string/one_piece"
+        />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:layout_marginTop="18dp"
+            android:layout_marginLeft="18dp"
+            android:fontFamily="sans-serif-light"
+            android:textSize="16sp"
+            android:textFontWeight="400"
+            android:text="Protagonistas: "
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:layout_marginTop="18dp"
+            android:text="Monkey D. Luffy, Shanks, Uta, Roronoa Zoro, Nico Robin, Brook, Nami, Ussop, Sanji, Franky, Jinbe, Tony Tony Chopper"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:layout_marginTop="18dp"
+            android:layout_marginLeft="18dp"
+            android:fontFamily="sans-serif-light"
+            android:textSize="16sp"
+            android:textFontWeight="400"
+            android:text="Año de estreno: "
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:layout_marginTop="18dp"
+            android:text="2022-08-06"
+            />
+
+    </LinearLayout>
+</LinearLayout>
